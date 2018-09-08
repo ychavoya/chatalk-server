@@ -1,0 +1,14 @@
+{
+  "name": "chatalk-server",
+  "version": "0.0.1",
+  "description": "Servidor para aplicación Chatalk",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Yael Chavoya",
+  "license": "ISC"
+}
