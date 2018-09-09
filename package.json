@@ -4,11 +4,17 @@
   "description": "Servidor para aplicación Chatalk",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No hay tests\" && exit 0",
+    "start": "node server.js"
   },
   "keywords": [
     "chat"
   ],
   "author": "Yael Chavoya",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.13",
+    "socket.io": "^2.1.1"
+  }
 }

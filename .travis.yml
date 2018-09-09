@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "node"
+deploy:
+  provider: heroku
+  api_key:
+    secure: YbF7DgRldozG2h6TIU5GhouN6NohcT6UMvVO0o5E3CdGhVXSNVf+YBQYzmgf/iGu0H17xBSo4qGNtxdJzJzgR8bTveDV1So7olXb4BNZ7merWnkCIr2a/eViOEzhYYGr7Vht+jtx1hxmOGfSyV/mRhK72KcRF3COYtpFKMX6z5phKVQ4aK5bSDaMuVdIhN/u3LaDXT/9nd7P8rS/CkDcwP/p8oiHSyhDOj1LrXAMPc7U/slVCobWD30436f6xjeh8cRvyoLr7leRiwNRnaG4SNDdxOoTeyWHsx+DA/qRdl+ZCqK0OY4/OcsqMuhUpvFI5Wp532QQXqAcTHGAOHMrYjkGJZ3YaIz7d73gwbhmnxb8XFZ25rbV4DlQ9zKhzudJtgib7M07tObhK8CIOPxCcvsz50Qmj0oN1Xo9UKMDMu/ZeZlWzZhSPLupRN+TkFxZ21ARQOefPvbVRVizaC6kanRrLI1PeQwCFl04un3jb0FnApGpl8/hVjfc8U/KBwP+FNXKsMk5QYoZi6MM9PoCGtDsfuahBgXGd2uLWZsVeZSy/ZL/72Pusxmc3POC0IVklwJVBOJdIZbMdSUGAkM6HiIu5VQ3kRwrTL/zKLJBIYgJChfqiRQxjwpBVb96xoDWElWMG4jkyBOSeQvtmDnb/+ix3fSXvSyPyQ+7HUE8qqQ=
+  app: chatalk-server
+  on:
+    repo: Woomber/ChatalkServer
